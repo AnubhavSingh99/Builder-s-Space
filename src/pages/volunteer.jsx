@@ -319,7 +319,7 @@ export default function AnimeBuilderForm() {
 
           <div className="group">
             <label htmlFor="workJam" className="block text-sm font-medium text-purple-300 mb-1 group-hover:text-pink-400 transition-colors duration-300">
-              🎧 What's your go-to jam while working? (We🎧 What's your go-to jam while working? (We just wanna make sure we're vibing to the same beats when we make magic together 🎶.)
+              🎧 What's your go-to jam while working? (We just wanna make sure we're vibing to the same beats when we make magic together 🎶.)
             </label>
             <input
               type="text"

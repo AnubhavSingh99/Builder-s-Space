@@ -16,7 +16,7 @@ export default function Component() {
             <header className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center p-4 bg-black bg-opacity-50 backdrop-blur-md">
                 <div className="text-2xl font-bold">Builder&apos;s Space</div>
                 <nav>
-                    <Link to="/volunteer" className="hover:text-gray-300 transition-colors">
+                    <Link to="/volunteer" className="px-4 py-2 text-sm font-medium bg-white/10 backdrop-blur-md border border-white/20 text-white rounded-full hover:bg-white/20 transition-all">
                         Volunteer
                     </Link>
                 </nav>
@@ -37,7 +37,7 @@ export default function Component() {
                                 opacity: 1 - scrollY / 500,
                             }}
                         >
-                            The Nights
+                            The Nights S1
                         </h1>
                         <p
                             className="text-xl md:text-2xl mb-8"
