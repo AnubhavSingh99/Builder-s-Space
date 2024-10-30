@@ -72,12 +72,12 @@ export default function Component() {
                 <section className="max-w-3xl mx-auto px-4 py-16 text-center">
                     <p className="text-2xl mb-8">So, if you want in on this new adventure—this blend of chaos, creativity, and community—then keep an eye out.</p>
                     <h2 className="text-4xl font-bold mb-8">Ready to see where The Nights takes us?</h2>
-                    <a
-                        href="/volunteer"
+                    <Link
+                        to="/volunteer"
                         className="inline-block bg-white text-black font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition-colors"
                     >
                         Volunteer us...
-                    </a>
+                    </Link>
 
                 </section>
             </main>
