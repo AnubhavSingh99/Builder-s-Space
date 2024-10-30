@@ -64,7 +64,7 @@ export default function Component() {
                         className='m-auto mb-10'
                     />
                     <div className="max-w-3xl mx-auto px-4">
-                        <p className="mb-4">You see, we started as a group of people who believed that building cool stuff shouldn't feel like a chore. We wanted to create a place for creators, builders, dreamers—the people who don't sleep because they've got that "one last thing" to try, that one more feature to add. We've come a long way since then, but now, it's time to level up.</p>
+                        <p className="mb-4">You see, we started as a group of people who believed that building cool stuff shouldn't feel like a chore. We wanted to create a place for creators, builders, dreamers—the people who don't sleep because they've got that "one last thing" to try, that one more feature to add. We've come a long way since then, but now, it's time to level up the game.</p>
                         <p className="mb-4">The Nights is all about bringing us all together on this wild ride. It's not just for techies, artists, or just any one kind of person—it's for everyone ready to make something, to be part of a movement. There'll be late-night sessions, projects that push boundaries, and, of course, a lot of laughs, fails, and wins along the way.</p>
                     </div>
                 </section>

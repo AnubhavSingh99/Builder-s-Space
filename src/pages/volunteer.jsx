@@ -385,7 +385,7 @@ export default function AnimeBuilderForm() {
               exit={{ opacity: 0, y: -20 }}
               className="mt-4 p-3 bg-red-500 text-white rounded-md flex items-center justify-center anime-error"
             >
-              Error submitting form. Please try again. 😅
+              Error submitting form. Please try again.
             </motion.div>
           )}
         </AnimatePresence>
