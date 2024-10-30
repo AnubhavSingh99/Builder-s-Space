@@ -215,7 +215,7 @@ export default function AnimeBuilderForm() {
         </div>
 
         <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500 mb-4 text-center anime-text-glow">
-          Join the Anime Builder Squad
+          Join the Builder Squad
         </h2>
 
         <form onSubmit={handleSubmit} className="space-y-6 relative z-10">
