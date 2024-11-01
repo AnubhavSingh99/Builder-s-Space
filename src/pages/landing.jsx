@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Twitter, Instagram } from 'lucide-react';
+import { Twitter, Instagram, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Component() {
@@ -64,7 +64,7 @@ export default function Component() {
                         className='m-auto mb-10'
                     />
                     <div className="max-w-3xl mx-auto px-4">
-                        <p className="mb-4">You see, we started as a group of people who believed that building cool stuff shouldn't feel like a chore. We wanted to create a place for creators, builders, dreamers—the people who don't sleep because they've got that "one last thing" to try, that one more feature to add. We've come a long way since then, but now, it's time to level up.</p>
+                        <p className="mb-4">You see, we started as a group of people who believed that building cool stuff shouldn't feel like a chore. We wanted to create a place for creators, builders, dreamers—the people who don't sleep because they've got that "one last thing" to try, that one more feature to add. We've come a long way since then, but now, it's time to level up the game.</p>
                         <p className="mb-4">The Nights is all about bringing us all together on this wild ride. It's not just for techies, artists, or just any one kind of person—it's for everyone ready to make something, to be part of a movement. There'll be late-night sessions, projects that push boundaries, and, of course, a lot of laughs, fails, and wins along the way.</p>
                     </div>
                 </section>
@@ -82,16 +82,31 @@ export default function Component() {
                 </section>
             </main>
 
-            <footer className="bg-black p-4 flex justify-between items-center">
+            <footer className="bg-black p-4 flex justify-between items-center text-white">
                 <nav className="space-x-4">
-                    <a href="/our-story" className="hover:text-gray-300 transition-colors">&copy; 2024 Builder's Space. All rights reserved.</a>
+                    <a
+                        href="/our-story"
+                        className="hover:text-gray-300 transition-colors"
+                    >
+                        &copy; 2024 Builder's Space. All rights reserved.
+                    </a>
                 </nav>
                 <div className="flex space-x-4">
-                    <a href="https://twitter.com/buildersspace" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                        <Twitter className="w-6 h-6" />
-                    </a>
-                    <a href="https://instagram.com/buildersspace" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <a
+                        href="https://instagram.com/builders.space"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Instagram"
+                        className="hover:text-gray-300 transition-colors"
+                    >
                         <Instagram className="w-6 h-6" />
+                    </a>
+                    <a
+                        href="mailto:buildersspace9@gmail.com"
+                        aria-label="Email"
+                        className="hover:text-gray-300 transition-colors"
+                    >
+                        <Mail className="w-6 h-6" />
                     </a>
                 </div>
             </footer>
